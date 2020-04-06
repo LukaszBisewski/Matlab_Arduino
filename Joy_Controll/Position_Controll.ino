@@ -89,4 +89,4 @@ void joystickRead()
   servoVal = map(servoVal, 0, 1023, 0, 180);     
   myservo1.write(servoVal);                       
    delay(15);         
-
+}
